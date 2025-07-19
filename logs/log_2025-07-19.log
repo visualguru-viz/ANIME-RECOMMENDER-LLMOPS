@@ -1,0 +1,64 @@
+2025-07-19 14:55:09,864 - INFO - Starting Anime Recommendation Pipeline build process...
+2025-07-19 14:55:09,865 - ERROR - Error during pipeline build: read_csv() got an unexpected keyword argument 'error_bad_lines'
+2025-07-19 15:18:41,796 - INFO - Starting Anime Recommendation Pipeline build process...
+2025-07-19 15:18:41,868 - INFO - Data loaded and processed successfully.
+2025-07-19 15:18:41,868 - ERROR - Error during pipeline build: VectorStoreBuilder.__init__() got an unexpected keyword argument 'persist_dir'
+2025-07-19 16:00:13,897 - INFO - Starting Anime Recommendation Pipeline build process...
+2025-07-19 16:00:13,974 - INFO - Data loaded and processed successfully.
+2025-07-19 16:02:21,089 - INFO - Use pytorch device_name: cpu
+2025-07-19 16:02:21,091 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-19 16:02:30,398 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-19 16:02:54,788 - ERROR - Error during pipeline build: Numpy is not available
+2025-07-19 16:10:43,564 - INFO - Starting Anime Recommendation Pipeline build process...
+2025-07-19 16:10:43,625 - INFO - Data loaded and processed successfully.
+2025-07-19 16:10:59,702 - INFO - Use pytorch device_name: cpu
+2025-07-19 16:10:59,702 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-19 16:11:06,351 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-19 16:11:29,859 - INFO - Vector store built and saved successfully.
+2025-07-19 16:11:29,860 - INFO - Anime Recommendation Pipeline build process completed successfully.
+2025-07-19 16:36:36,898 - INFO - Initializing AnimeRecommendationPipeline...
+2025-07-19 16:36:36,899 - ERROR - Error initializing AnimeRecommendationPipeline: VectorStoreBuilder.__init__() got an unexpected keyword argument 'persist_dir'
+2025-07-19 16:40:49,595 - INFO - Initializing AnimeRecommendationPipeline...
+2025-07-19 16:40:49,595 - ERROR - Error initializing AnimeRecommendationPipeline: VectorStoreBuilder.__init__() got an unexpected keyword argument 'persist_dir'
+2025-07-19 16:53:44,732 - INFO - Initializing AnimeRecommendationPipeline...
+2025-07-19 16:54:02,870 - INFO - Use pytorch device_name: cpu
+2025-07-19 16:54:02,872 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-19 16:54:09,704 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-19 16:54:10,536 - INFO - AnimeRecommendationPipeline initialized successfully.
+2025-07-19 16:56:55,382 - INFO - Initializing AnimeRecommendationPipeline...
+2025-07-19 16:57:12,629 - INFO - Use pytorch device_name: cpu
+2025-07-19 16:57:12,630 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-19 16:57:19,035 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-19 16:57:19,879 - INFO - AnimeRecommendationPipeline initialized successfully.
+2025-07-19 16:58:19,575 - INFO - Initializing AnimeRecommendationPipeline...
+2025-07-19 16:58:37,197 - INFO - Use pytorch device_name: cpu
+2025-07-19 16:58:37,198 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-19 16:58:43,699 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-19 16:58:44,513 - INFO - AnimeRecommendationPipeline initialized successfully.
+2025-07-19 17:00:06,532 - INFO - Generating recommendations for query: action anime with school events
+2025-07-19 17:00:08,065 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 17:00:08,088 - INFO - Recommendations generated successfully for query: action anime with school events
+2025-07-19 17:02:32,712 - INFO - Generating recommendations for query: I want similar anime to Tenjou Tenge
+2025-07-19 17:02:33,577 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 17:02:33,581 - INFO - Recommendations generated successfully for query: I want similar anime to Tenjou Tenge
+2025-07-19 17:03:58,563 - INFO - Generating recommendations for query: I want similar anime to spy x family
+2025-07-19 17:03:59,471 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 17:03:59,473 - INFO - Recommendations generated successfully for query: I want similar anime to spy x family
+2025-07-19 17:04:21,074 - INFO - Generating recommendations for query: I want similar anime to naruto
+2025-07-19 17:04:21,917 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 17:04:21,918 - INFO - Recommendations generated successfully for query: I want similar anime to naruto
+2025-07-19 17:04:32,022 - INFO - Generating recommendations for query: I want similar anime to demon slayer
+2025-07-19 17:04:32,875 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 17:04:32,877 - INFO - Recommendations generated successfully for query: I want similar anime to demon slayer
+2025-07-19 17:05:22,661 - INFO - Generating recommendations for query: suggest feel good animes
+2025-07-19 17:05:23,428 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 17:05:23,429 - INFO - Recommendations generated successfully for query: suggest feel good animes
+2025-07-19 17:05:51,961 - INFO - Generating recommendations for query: suggest action animes
+2025-07-19 17:05:52,571 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 17:05:52,573 - INFO - Recommendations generated successfully for query: suggest action animes
+2025-07-19 17:06:17,897 - INFO - Generating recommendations for query: suggest ninja anime
+2025-07-19 17:06:18,629 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 17:06:18,633 - INFO - Recommendations generated successfully for query: suggest ninja anime
+2025-07-19 21:19:22,847 - INFO - Generating recommendations for query: suggest action anime
+2025-07-19 21:19:23,879 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 21:19:23,886 - INFO - Recommendations generated successfully for query: suggest action anime
